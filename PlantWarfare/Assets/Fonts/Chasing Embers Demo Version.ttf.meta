@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 396d8d19ee530498bb62b5beae141bbb
+timeCreated: 1511126789
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Chasing Embers Demo Version
+  fontNames:
+  - Chasing Embers Demo Version
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
