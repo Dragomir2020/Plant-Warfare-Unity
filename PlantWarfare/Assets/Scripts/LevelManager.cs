@@ -6,10 +6,15 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class LevelManager : MonoBehaviour {
 
+	/// <summary>
+	/// The auto load next level when set to 0f does not load next level.
+	/// </summary>
 	public float autoLoadNextLevel;
 
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
 	void Start(){
-		Debug.LogWarning ("Yasss");
 		if (autoLoadNextLevel != 0f) {
 			Invoke ("LoadNextLevel", autoLoadNextLevel);
 		}
@@ -19,7 +24,6 @@ public class LevelManager : MonoBehaviour {
 	///  Open new scenes
 	/// </summary>
 	public void LoadLevel(string name){
-		Debug.Log ("New Level load: " + name);
 		SceneManager.LoadScene (name);
 	}
 
@@ -27,10 +31,12 @@ public class LevelManager : MonoBehaviour {
 	///  Quit game
 	/// </summary>
 	public void QuitRequest(){
-		Debug.Log ("Quit requested");
 		Application.Quit ();
 	}
 
+	/// <summary>
+	/// Loads the next level.
+	/// </summary>
 	public void LoadNextLevel(){
 		SceneManager.LoadScene ("StartMenu");
 	}

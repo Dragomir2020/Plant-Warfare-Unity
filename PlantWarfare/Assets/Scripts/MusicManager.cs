@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour {
 
+	/// <summary>
+	/// Array of the Audio Clips for each level.
+	/// </summary>
 	public AudioClip[] levelMusicChangeArray;
-
+	/// <summary>
+	/// The audio source used to play the audio clip.
+	/// </summary>
 	private AudioSource audioSource;
 
+	/// <summary>
+	/// Awake this instance.
+	/// </summary>
 	void Awake(){
 		DontDestroyOnLoad (this);
 	}
 
-	// Use this for initialization
+	/// <summary>
+	/// Start this instance.
+	/// </summary>//
 	void Start () {
 		audioSource = GetComponent<AudioSource> ();
 	}
@@ -21,9 +31,9 @@ public class MusicManager : MonoBehaviour {
 	/// Loads new music for each level
 	/// </summary>
 	/// <param name="level">Level.</param>
-	void OnLevelWasLoaded(int level){
+	private void OnLevelWasLoaded(int level){
 		AudioClip music = levelMusicChangeArray [level];
-		//If music is attached in 
+		//If music is attached
 		if (music != null){
 			audioSource.clip = music;
 			audioSource.loop = true;
