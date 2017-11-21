@@ -40,4 +40,12 @@ public class MusicManager : MonoBehaviour {
 			audioSource.Play ();
 		}
 	}
+
+	/// <summary>
+	/// Changes the volume.
+	/// </summary>
+	/// <param name="volume">Volume.</param>
+	public void ChangeVolume(float volume){
+		audioSource.volume = volume;
+	}
 }

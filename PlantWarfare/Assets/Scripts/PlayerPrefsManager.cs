@@ -80,14 +80,14 @@ public class PlayerPrefsManager : MonoBehaviour {
 	}
 
 	/// <summary>
-	/// Sets the difficulty.
+	/// Sets the difficulty from 1 to 3.
 	/// </summary>
 	/// <param name="difficulty">Difficulty.</param>
 	public static void SetDifficulty(float difficulty){
-		if (difficulty >= 0f && difficulty <= 1f) {
+		if (difficulty >= 1f && difficulty <= 3f) {
 			PlayerPrefs.SetFloat (DIFFICULTY_KEY, difficulty);
 		} else {
-			Debug.LogError ("Difficulty must be between 0f and 1f");
+			Debug.LogError ("Difficulty must be between 1f and 3f");
 		}
 	}
 

@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: 3991ba177e1fb40e3861dc0e837ff9f6
-timeCreated: 18446744011573954816
+timeCreated: 1511233177
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: npc_deimaginator__x1_appear_png_1354836021_0
@@ -28,6 +29,34 @@ TextureImporter:
     21300044: npc_deimaginator__x1_appear_png_1354836021_22
     21300046: npc_deimaginator__x1_appear_png_1354836021_23
     21300048: npc_deimaginator__x1_appear_png_1354836021_24
+    21300050: appearing_0
+    21300052: appearing_1
+    21300054: appearing_2
+    21300056: appearing_3
+    21300058: appearing_4
+    21300060: appearing_5
+    21300062: appearing_6
+    21300064: appearing_7
+    21300066: appearing_8
+    21300068: appearing_9
+    21300070: appearing_10
+    21300072: appearing_11
+    21300074: appearing_12
+    21300076: appearing_13
+    21300078: appearing_14
+    21300080: appearing_15
+    21300082: appearing_16
+    21300084: appearing_17
+    21300086: appearing_18
+    21300088: appearing_19
+    21300090: appearing_20
+    21300092: appearing_21
+    21300094: appearing_22
+    21300096: appearing_23
+    21300098: appearing_24
+    21300100: appearing_25
+    21300102: appearing_26
+    21300104: appearing_27
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -91,7 +120,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_0
+      name: appearing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,9 +132,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_1
+      name: appearing_1
       rect:
         serializedVersion: 2
         x: 251
@@ -117,9 +146,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_2
+      name: appearing_2
       rect:
         serializedVersion: 2
         x: 502
@@ -131,9 +160,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_3
+      name: appearing_3
       rect:
         serializedVersion: 2
         x: 0
@@ -145,9 +174,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_4
+      name: appearing_4
       rect:
         serializedVersion: 2
         x: 251
@@ -159,9 +188,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_5
+      name: appearing_5
       rect:
         serializedVersion: 2
         x: 502
@@ -173,9 +202,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_6
+      name: appearing_6
       rect:
         serializedVersion: 2
         x: 0
@@ -187,9 +216,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_7
+      name: appearing_7
       rect:
         serializedVersion: 2
         x: 251
@@ -201,9 +230,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_8
+      name: appearing_8
       rect:
         serializedVersion: 2
         x: 502
@@ -215,9 +244,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_9
+      name: appearing_9
       rect:
         serializedVersion: 2
         x: 0
@@ -229,9 +258,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_10
+      name: appearing_10
       rect:
         serializedVersion: 2
         x: 251
@@ -243,9 +272,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_11
+      name: appearing_11
       rect:
         serializedVersion: 2
         x: 502
@@ -257,9 +286,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_12
+      name: appearing_12
       rect:
         serializedVersion: 2
         x: 0
@@ -271,9 +300,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_13
+      name: appearing_13
       rect:
         serializedVersion: 2
         x: 251
@@ -285,9 +314,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_14
+      name: appearing_14
       rect:
         serializedVersion: 2
         x: 502
@@ -299,9 +328,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_15
+      name: appearing_15
       rect:
         serializedVersion: 2
         x: 0
@@ -313,9 +342,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_16
+      name: appearing_16
       rect:
         serializedVersion: 2
         x: 251
@@ -327,9 +356,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_17
+      name: appearing_17
       rect:
         serializedVersion: 2
         x: 502
@@ -341,9 +370,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_18
+      name: appearing_18
       rect:
         serializedVersion: 2
         x: 0
@@ -355,9 +384,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_19
+      name: appearing_19
       rect:
         serializedVersion: 2
         x: 251
@@ -369,9 +398,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_20
+      name: appearing_20
       rect:
         serializedVersion: 2
         x: 502
@@ -383,9 +412,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_21
+      name: appearing_21
       rect:
         serializedVersion: 2
         x: 0
@@ -397,9 +426,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_22
+      name: appearing_22
       rect:
         serializedVersion: 2
         x: 251
@@ -411,9 +440,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_23
+      name: appearing_23
       rect:
         serializedVersion: 2
         x: 502
@@ -425,9 +454,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_appear_png_1354836021_24
+      name: appearing_24
       rect:
         serializedVersion: 2
         x: 0
@@ -439,7 +468,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

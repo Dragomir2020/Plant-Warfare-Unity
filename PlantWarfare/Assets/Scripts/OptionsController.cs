@@ -28,19 +28,26 @@ public class OptionsController : MonoBehaviour {
 	/// </summary>
 	void Start () {
 		musicManager = GameObject.FindObjectOfType<MusicManager> ();
-		//Will only exists if game is started from splash screen scene
-		if (musicManager != null) {
-
-		}
 		try{
 			VolumeSlider.value = PlayerPrefsManager.GetMasterVolume ();
 		} catch(Exception e){
+			VolumeSlider.value = 0.5f;
 			Debug.LogError ("Error: " + e.ToString ());
 		}
 		try{
 			DifficultySlider.value = PlayerPrefsManager.GetDifficulty();
 		} catch(Exception e){
+			DifficultySlider.value = 0.5f;
 			Debug.LogError ("Error: " + e.ToString ());
+		}
+	}
+	/// <summary>
+	/// Update this instance.
+	/// </summary>
+	void Update(){
+		//Will only exists if game is started from splash screen scene
+		if (musicManager != null) {
+			musicManager.ChangeVolume (VolumeSlider.value);
 		}
 	}
 
