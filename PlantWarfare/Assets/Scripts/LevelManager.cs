@@ -15,8 +15,13 @@ public class LevelManager : MonoBehaviour {
 	/// Start this instance.
 	/// </summary>
 	void Start(){
-		if (autoLoadNextLevel != 0f) {
-			Invoke ("LoadNextLevel", autoLoadNextLevel);
+		if (autoLoadNextLevel != 0f)
+		{
+			Invoke("LoadNextLevel", autoLoadNextLevel);
+		}
+		else if (autoLoadNextLevel < 0)
+		{
+			Debug.LogWarning("Must load level after positive amount of time");
 		}
 	}
 

@@ -6,9 +6,20 @@ public class SetStartVolume : MonoBehaviour {
 
 	private MusicManager musicManager;
 
-	// Find Music manager and set volume
-	void Start () {
-		musicManager = GameObject.FindObjectOfType<MusicManager>();
+	/// <summary>
+	///  Find Music manager and set volume when scene is loaded
+	/// </summary>
+	void Start()
+	{
+		musicManager = FindObjectOfType<MusicManager>();
+		if (!musicManager)
+		{
+			Debug.LogWarning("No music manager found in start scene so can't set volume");
+		}
+		else {
+			float volume = PlayerPrefsManager.GetMasterVolume();
+			musicManager.ChangeVolume(volume);
+		}
 	}
 
 }
