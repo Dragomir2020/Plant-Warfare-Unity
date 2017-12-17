@@ -22,9 +22,11 @@ public class Shooter : MonoBehaviour {
 	{
 		projectileParent = GameObject.Find("Projectiles");
 
+		// Create Projectiles GO for projectileParent if DNE
 		if (!projectileParent)
 		{
-			Debug.LogWarning("Create Projectiles GameObject for projectiles");
+			projectileParent = new GameObject();
+			projectileParent.name = "Projectiles";
 		}
 
 		projectileSpawn = transform.GetChild(1).gameObject;

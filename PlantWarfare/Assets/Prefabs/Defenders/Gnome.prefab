@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1329864562977290, guid: ae2dacc36c4ea463d97a02695067ec9e, type: 2}
+  projectileSpawn: {fileID: 0}
 --- !u!114 &114689774733647832
 MonoBehaviour:
   m_ObjectHideFlags: 1
