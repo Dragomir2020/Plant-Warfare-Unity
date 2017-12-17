@@ -45,9 +45,22 @@ public class Attackers : MonoBehaviour {
 	/// <summary>
 	/// Called when box collider trigger is activated
 	/// </summary>
-	void OnTriggerEnter2D()
+	void OnTriggerEnter2D(Collider2D collider)
 	{
-		Debug.LogWarning(name + " Triggered");
+		//True when collides with attacker
+		//Having scripts for differnt objects allows us not to use collision matrix
+		if (collider.gameObject.GetComponent<Projectile>())
+		{
+			Health attackerHealth = GetComponent<Health>();
+			if (attackerHealth)
+			{
+				// Deal projectile damage to attacker
+				attackerHealth.DealDamage(collider.gameObject.GetComponent<Projectile>().damage);
+			}
+			else {
+				DestroyObject(this.gameObject);
+			}
+		}
 	}
 
 	/// <summary>
@@ -83,4 +96,5 @@ public class Attackers : MonoBehaviour {
 	{
 		currentTarget = target;
 	}
+
 }

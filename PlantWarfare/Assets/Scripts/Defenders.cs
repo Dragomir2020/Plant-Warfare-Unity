@@ -4,21 +4,6 @@ using UnityEngine;
 
 public class Defenders : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	//Possibly use this class if attackers can initiate projectiles
 
-	/// <summary>
-	/// Triggered when defender is hit
-	/// </summary>
-	void OnTriggerEnter2D()
-	{
-		Debug.LogWarning(name + " Triggered");
-	}
 }

@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transformSpeed: 3
   damage: 25
-  rotationSpeed: 50
+  rotationSpeed: 100
 --- !u!212 &212624160397595726
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -1,19 +1,20 @@
-﻿<Properties StartupConfiguration="{5A8E3C85-35A6-1F4C-3A06-03BABFFCEC6C}|Unit Tests">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shooter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Projectile.cs" Line="11" Column="13" />
-      <File FileName="Assets/Scripts/Attackers.cs" Line="28" Column="3" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="52" Column="3" />
+      <File FileName="Assets/Scripts/Attackers.cs" Line="57" Column="42" />
       <File FileName="Assets/Scripts/SetStartVolume.cs" Line="8" Column="2" />
-      <File FileName="Assets/Scripts/MusicManager.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/MusicManager.cs" Line="51" Column="2" />
       <File FileName="Assets/Scripts/LevelManager.cs" Line="24" Column="68" />
       <File FileName="Assets/Scripts/OptionsController.cs" Line="47" Column="16" />
       <File FileName="Assets/Scripts/PlayerPrefsManager.cs" Line="18" Column="28" />
       <File FileName="Assets/Scripts/FadeIn.cs" Line="37" Column="8" />
-      <File FileName="Assets/Scripts/Defenders.cs" Line="18" Column="36" />
+      <File FileName="Assets/Scripts/Defenders.cs" Line="10" Column="1" />
       <File FileName="Assets/Scripts/Fox.cs" Line="20" Column="30" />
       <File FileName="Assets/Scripts/Lizzard.cs" Line="28" Column="3" />
       <File FileName="Assets/Scripts/Health.cs" Line="30" Column="29" />
+      <File FileName="Assets/Scripts/Shooter.cs" Line="53" Column="7" />
+      <File FileName="Assets/Scripts/Shredder.cs" Line="9" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
