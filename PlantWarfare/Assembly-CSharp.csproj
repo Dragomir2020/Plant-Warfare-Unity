@@ -51,23 +51,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Attackers.cs" />
-     <Compile Include="Assets\Scripts\Button.cs" />
-     <Compile Include="Assets\Scripts\Defenders.cs" />
-     <Compile Include="Assets\Scripts\DefenderSpawner.cs" />
-     <Compile Include="Assets\Scripts\FadeIn.cs" />
-     <Compile Include="Assets\Scripts\Fox.cs" />
-     <Compile Include="Assets\Scripts\Health.cs" />
-     <Compile Include="Assets\Scripts\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\Lizzard.cs" />
-     <Compile Include="Assets\Scripts\MusicManager.cs" />
-     <Compile Include="Assets\Scripts\OptionsController.cs" />
-     <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
-     <Compile Include="Assets\Scripts\Projectile.cs" />
-     <Compile Include="Assets\Scripts\SetStartVolume.cs" />
-     <Compile Include="Assets\Scripts\Shooter.cs" />
-     <Compile Include="Assets\Scripts\Shredder.cs" />
-     <Compile Include="Assets\Scripts\Stone.cs" />
+     <Compile Include="Assets\Scripts\Characters\Defenders\Defenders.cs" />
+     <Compile Include="Assets\Scripts\Characters\Defenders\DefenderSpawner.cs" />
+     <Compile Include="Assets\Scripts\Characters\Defenders\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Characters\Defenders\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Characters\Defenders\Stone.cs" />
+     <Compile Include="Assets\Scripts\Characters\Enemies\Attackers.cs" />
+     <Compile Include="Assets\Scripts\Characters\Enemies\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Characters\Enemies\Fox.cs" />
+     <Compile Include="Assets\Scripts\Characters\Enemies\Lizzard.cs" />
+     <Compile Include="Assets\Scripts\Characters\Health.cs" />
+     <Compile Include="Assets\Scripts\General\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\General\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\General\OptionsController.cs" />
+     <Compile Include="Assets\Scripts\General\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\Scripts\General\SetStartVolume.cs" />
+     <Compile Include="Assets\Scripts\UI\Button.cs" />
+     <Compile Include="Assets\Scripts\UI\FadeIn.cs" />
+     <Compile Include="Assets\Scripts\UI\Shredder.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

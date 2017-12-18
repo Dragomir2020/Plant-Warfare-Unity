@@ -172,7 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSpeed: 0.351
-  damage: 50
 --- !u!212 &212105353233335474
 SpriteRenderer:
   m_ObjectHideFlags: 1
